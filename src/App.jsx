@@ -100,7 +100,7 @@ function App() {
             </div>
           </div>
 
-          <footer class=" flex items-center  justify-center w-full md:pl-28 md:pt-32      overflow-hidden   ">
+          <footer class=" flex items-center  justify-center w-full  md:pt-32      overflow-hidden   ">
             <div class="w-full  flex justify-center text-gray-300 sm:w-7/12 pt-8   ">
 
               <ul role="list" class="space-y-8">
