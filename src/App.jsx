@@ -42,9 +42,9 @@ function App() {
   return (
 
     <>
-      <div className=' overflow-hidden flex justify-center items-center w-full    h-screen ' >
-        <div className=' pt-20'>
-          <div className=' bg-gradient-to-r from-indigo-500 from-10%        via-sky-500 via-30% to-emerald-500 to-90% hover:from-pink-500 hover:to-yellow-500 rounded-xl px-5 py-3 shadow-lg mt-2 mb-4 max-w-md  mx-auto w-full  text-orange-500 py-20'>
+      <div className=' overflow-hidden flex justify-center items-center w-full    h-screen sm:w-full sm:px-3 ' >
+        <div className=' pt-20   sm:px-3 '>
+          <div className=' bg-gradient-to-r from-indigo-500 from-10%        via-sky-500 via-30% to-emerald-500 to-90% hover:from-pink-500 hover:to-yellow-500 rounded-xl px-5 py-3 shadow-lg mt-2 mb-4 max-w-md  mx-auto w-full  text-orange-500 '>
 
            {/* Password Input and Copy starts here */}
             
@@ -100,8 +100,8 @@ function App() {
             </div>
           </div>
 
-          <footer class=" pt-32 items-center  justify-center w-full md:pl-28      overflow-hidden sm:py-0 ">
-            <div class="w-full  flex justify-center text-gray-300 sm:w-7/12   ">
+          <footer class=" flex items-center  justify-center w-full md:pl-28 md:pt-32      overflow-hidden   ">
+            <div class="w-full  flex justify-center text-gray-300 sm:w-7/12 pt-8   ">
 
               <ul role="list" class="space-y-8">
                   <li>
