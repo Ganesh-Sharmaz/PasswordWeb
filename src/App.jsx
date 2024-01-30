@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   
@@ -133,6 +134,7 @@ function App() {
   
 
       </div>
+      <Analytics />
 
 
     </>
